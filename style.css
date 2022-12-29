@@ -13,7 +13,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("img/urca_dia.jpg");
+    background-image: url("urca_dia.jpg");
     background-size:cover;
     overflow: hidden;
 }
