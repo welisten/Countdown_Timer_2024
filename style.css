@@ -33,12 +33,12 @@ h1{
 }
 
 .countdown-container div{
-    margin: 20px;
+    margin: 30px;
     position: relative;
 }
 .countdown-container span{
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     font-weight: 200;
     background-color: rgba(255, 255, 255, 0.116);
     color:rgb(255, 255, 255); 
@@ -48,9 +48,6 @@ h1{
     font-size: 120px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     font-weight: bold;
-
-    z-index: 2;
-
 }
 .countdown-container .text{
     height: 30px;
@@ -62,6 +59,3 @@ h1{
     opacity: 0.8;
 }
 
-.big-text{
-  z-index: 1;
-}
