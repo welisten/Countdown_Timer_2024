@@ -73,31 +73,34 @@ h1
 
 @media(max-width: 940px)
 {
-    body{
+    body
+    {
         text-align: center;
         background-size:cover;
     }
-
-    .countdown-container div{
+    
+    .countdown-container div
+    {
         margin: 1rem ;
     }
-
-
 }
 
 @media(max-width: 770px)
 {
 
-    h1{
+    h1
+    {
         font-size: 7rem;
 
     }
 
-    .countdown-container div{
+    .countdown-container div
+    {
         margin: 5px;
     }
 
-    .countdown-container span{
+    .countdown-container span
+    {
         width: 140px;
         height: 140px;
         font-size: 8rem;
@@ -106,33 +109,33 @@ h1
 
 @media(max-width: 540px)
 {
-
-    body{
- 
-    }
-
-    h1{
+    h1
+    {
         font-size: 5rem;
         margin: 10px 0 0 0;
 
     }
 
-    .countdown-container{
+    .countdown-container
+    {
         flex-direction: column;
         margin-bottom: 10px;
     }
 
-    .countdown-container div{
+    .countdown-container div
+    {
         margin: 5px;
     }
 
-    .countdown-container span{
+    .countdown-container span
+    {
         width: 100px;
         height: 100px;
         font-size: 6rem;
     }
 
-    .countdown-container .text{
+    .countdown-container .text
+    {
         font-size: 1.5rem;
     }
 }
