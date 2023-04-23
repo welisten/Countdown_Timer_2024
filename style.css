@@ -1,42 +1,52 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap');
 
-*{
+*
+{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-size: 62.5%;
 }
 
-body{
+body
+{
     font-family: 'Playfair Display', serif;
     margin: 0;
     height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("https://images.unsplash.com/photo-1561577553-674ce32847a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
-    background-size:cover;
+    box-sizing: border-box;
+    background-image: url("./urca_dia.jpg");
+    background-size: cover;
     overflow: hidden;
+    text-align: center;
 }
 
-h1{
-    font-size: 5rem;
+h1
+{
+    font-size: 8rem;
     font-weight: 200;
     margin: 40px;
-    letter-spacing: 4px;
-    text-align: center;
+    letter-spacing: 0.25rem;
 }
 
-.countdown-container{
+.countdown-container
+{
     display: flex;
     text-align: center;
- 
+    justify-content: center;
 }
 
-.countdown-container div{
+.countdown-container div
+{
     margin: 30px;
     position: relative;
 }
-.countdown-container span{
+
+.countdown-container span
+{
     width: 170px;
     height: 170px;
     font-weight: 200;
@@ -49,7 +59,9 @@ h1{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
     font-weight: bold;
 }
-.countdown-container .text{
+
+.countdown-container .text
+{
     height: 30px;
     font-size: 20px;
     text-transform: uppercase;
@@ -59,3 +71,68 @@ h1{
     opacity: 0.8;
 }
 
+@media(max-width: 940px)
+{
+    body{
+        text-align: center;
+        background-size:cover;
+    }
+
+    .countdown-container div{
+        margin: 1rem ;
+    }
+
+
+}
+
+@media(max-width: 770px)
+{
+
+    h1{
+        font-size: 7rem;
+
+    }
+
+    .countdown-container div{
+        margin: 5px;
+    }
+
+    .countdown-container span{
+        width: 140px;
+        height: 140px;
+        font-size: 8rem;
+    }
+}
+
+@media(max-width: 540px)
+{
+
+    body{
+ 
+    }
+
+    h1{
+        font-size: 5rem;
+        margin: 10px 0 0 0;
+
+    }
+
+    .countdown-container{
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .countdown-container div{
+        margin: 5px;
+    }
+
+    .countdown-container span{
+        width: 100px;
+        height: 100px;
+        font-size: 6rem;
+    }
+
+    .countdown-container .text{
+        font-size: 1.5rem;
+    }
+}

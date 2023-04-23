@@ -1,9 +1,9 @@
-const   daysEL = document.getElementById("days"),
-        hoursEL = document.getElementById("hours"),
-        minsEl = document.getElementById("mins"),
-        secondsEl = document.getElementById("seconds");
+const   daysEL      = document.getElementById("days"),
+        hoursEL     = document.getElementById("hours"),
+        minsEl      = document.getElementById("mins"),
+        secondsEl   = document.getElementById("seconds");
 
-const newYear = "1 Jan 2024" // This date is able to be reset to any other in the future
+const   newYear     = "1 Jan 2024" // This date is able to be reset to any other in the future
 
 function countdown() {
     const newYearsDate = new Date(newYear);
